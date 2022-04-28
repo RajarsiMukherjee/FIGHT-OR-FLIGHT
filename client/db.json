@@ -32,6 +32,17 @@
       "pnr": 179960110378,
       "capacity": "200",
       "id": 3
+    },
+    {
+      "airlines": "Indigo",
+      "from": "Kolkata",
+      "to": "Delhi",
+      "cost": "9000",
+      "FromTime": "06:00",
+      "ToTime": "12:00",
+      "pnr": 127720848785,
+      "capacity": "100",
+      "id": 4
     }
   ],
   "Airports": [

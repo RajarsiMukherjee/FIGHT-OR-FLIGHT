@@ -38,7 +38,7 @@ export default function Navbar() {
                                         <Tab label="Log Out" disabled={!auth} value="8" onClick={() => { dispatch(logout()); navigate("/login") }} />
 
                                     </>
-                                ) : <Tab label="Login" disabled={auth} value="4" onClick={() => navigate("/login")} />}
+                                ) : <Tab label="Admin Login" disabled={auth} value="4" onClick={() => navigate("/login")} />}
 
                             </TabList>
                         </Box>

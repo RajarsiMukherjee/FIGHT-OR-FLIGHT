@@ -48,3 +48,34 @@ export default function Login() {
         </div>
     )
 }
+
+/* <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>From</th>
+                        <th>To</th>
+                        <th>Cost</th>
+                        <th>From Time</th>
+                        <th>To Time</th>
+                        <th>PNR</th>
+                        <th>Capacity</th>
+                    </tr>
+
+                    {
+                        disp.map((e) => (
+                            <tr key={e.id}>
+                                <td>{e.airlines}</td>
+                                <td>{e.from}</td>
+                                <td>{e.to}</td>
+                                <td>{e.cost}</td>
+                                <td>{e.FromTime}</td>
+                                <td>{e.ToTime}</td>
+                                <td>{e.pnr}</td>
+                                <td>{e.capacity}</td>
+                            </tr>
+                        ))
+                    }
+
+
+
+                </table> */
