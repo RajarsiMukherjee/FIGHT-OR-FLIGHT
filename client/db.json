@@ -1,0 +1,55 @@
+{
+  "Flights": [
+    {
+      "airlines": "Air India",
+      "from": "Kolkata",
+      "to": "Delhi",
+      "cost": "500",
+      "FromTime": "16:00",
+      "ToTime": "20:00",
+      "pnr": 493752503718,
+      "capacity": "100",
+      "id": 1
+    },
+    {
+      "airlines": "Air India",
+      "from": "Kolkata",
+      "to": "Mumbai",
+      "cost": "600",
+      "FromTime": "12:00",
+      "ToTime": "16:00",
+      "pnr": 508356663952,
+      "capacity": "150",
+      "id": 2
+    },
+    {
+      "airlines": "Indigo",
+      "from": "Bangalore",
+      "to": "Mumbai",
+      "cost": "700",
+      "FromTime": "12:00",
+      "ToTime": "16:00",
+      "pnr": 179960110378,
+      "capacity": "200",
+      "id": 3
+    }
+  ],
+  "Airports": [
+    {
+      "dataa": "Kolkata",
+      "id": 1
+    },
+    {
+      "dataa": "Delhi",
+      "id": 2
+    },
+    {
+      "dataa": "Bangalore",
+      "id": 3
+    },
+    {
+      "dataa": "Mumbai",
+      "id": 4
+    }
+  ]
+}
