@@ -22,7 +22,8 @@ export const postFlight = (data) => (dispatch) => {
   // const dispatch = useDispatch();
 
   dispatch(flightAddLoading())
-  fetch("http://localhost:8080/Flights", {
+  // fetch("http://localhost:8080/Flights", {
+    fetch("https://flightairportapp.herokuapp.com/flight", {
     method: "POST",
     body: JSON.stringify(data),
     headers: {

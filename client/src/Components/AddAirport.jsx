@@ -14,7 +14,7 @@ export default function AddAirport() {
         console.log("data", airport)
         // axios.post("http://localhost:8080/Airports", {airport}).then((res) => console.log(res.data))
         dispatch(postAirportData(airport))
-        console.log("data")
+        // console.log("data")
     }
     // console.log(airport)
 

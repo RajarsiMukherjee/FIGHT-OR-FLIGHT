@@ -21,13 +21,13 @@ export const addAirportError = () => ({
 
 export const getAirportData = () => (dispatch) => {
     dispatch(addAirportLoading())
-    fetch('http://localhost:8080/Airports')
+    fetch('https://flightairportapp.herokuapp.com/airport')
         .then((res) => res.json())
         .then((res) => dispatch(addAirport(res)))
         .catch((err) => dispatch(addAirportError()))
 }
 
-export const postAirportData = (dataa) => (dispatch) => {
+export const postAirportData = (airport) => (dispatch) => {
     dispatch(addAirportLoading())
-    axios.post("http://localhost:8080/Airports", { dataa }).then((res) => dispatch(addAirport(res.data))).catch((err) => dispatch(addAirportError()))
+    axios.post("https://flightairportapp.herokuapp.com/airport", { airport }).then((res) => dispatch(addAirport(res.data))).catch((err) => dispatch(addAirportError()))
 }

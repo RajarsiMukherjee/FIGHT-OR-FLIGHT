@@ -23,7 +23,7 @@ export default function Home() {
     const [disp, setDisp] = useState([])
 
     useEffect(() => {
-        axios.get("http://localhost:8080/Flights").then((res) => setData(res.data))
+        axios.get("https://flightairportapp.herokuapp.com/flight").then((res) => setData(res.data))
     }, [])
 
     const handleSearch = () => {

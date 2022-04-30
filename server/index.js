@@ -13,11 +13,15 @@ const mongoose = require("mongoose");
 // };
 app.use(cors());
  
-const petData = require("./src/controllers/petController")
-const cityData = require("./src/controllers/CityController")
+// const petData = require("./src/controllers/petController")
+// const cityData = require("./src/controllers/CityController")
+
+const flightController = require("./src/controllers/flightController")
+// Controller for airport
+const airportController = require("./src/controllers/airportController")
  
-app.use("/petData", petData)
-app.use("/city", cityData)
+app.use("/flight", flightController)
+app.use("/airport", airportController)
 
 
 
